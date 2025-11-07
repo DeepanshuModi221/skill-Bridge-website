@@ -1,0 +1,32 @@
+[
+  {
+    "id": "j1",
+    "title": "Junior Python Developer",
+    "company": "TechNova",
+    "location": "Remote",
+    "type": "full-time",
+    "salary": "₹3,00,000 - ₹5,00,000",
+    "description": "Work on backend services and automation scripts using Python.",
+    "url": "https://www.example.com/jobs/junior-python-developer"
+  },
+  {
+    "id": "j2",
+    "title": "Data Analyst",
+    "company": "Insightful",
+    "location": "Bengaluru, India",
+    "type": "full-time",
+    "salary": "₹4,50,000 - ₹7,00,000",
+    "description": "Analyze business metrics and build dashboards using SQL and Power BI.",
+    "url": "https://www.example.com/jobs/data-analyst"
+  },
+  {
+    "id": "j3",
+    "title": "UI Designer (Contract)",
+    "company": "CreativeCo",
+    "location": "Hybrid - Mumbai",
+    "type": "contract",
+    "salary": "₹30,000/month",
+    "description": "Design web and mobile interfaces; create high-fidelity prototypes.",
+    "url": "https://www.example.com/jobs/ui-designer"
+  }
+]
