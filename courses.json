@@ -1,0 +1,52 @@
+[
+  {
+    "id": "c1",
+    "title": "Intro to Python Programming",
+    "type": "programming",
+    "level": "Beginner",
+    "provider": "OpenLearn",
+    "description": "Learn Python fundamentals: data types, control flow, functions, and basic I/O.",
+    "url": "https://www.example.com/courses/python-intro",
+    "tags": ["python","programming","beginners"]
+  },
+  {
+    "id": "c2",
+    "title": "Data Science with R",
+    "type": "data",
+    "level": "Intermediate",
+    "provider": "DataCampus",
+    "description": "Explore data analysis, visualization, and statistical modelling using R.",
+    "url": "https://www.example.com/courses/data-science-r",
+    "tags": ["data","r","statistics"]
+  },
+  {
+    "id": "c3",
+    "title": "UI/UX Design Essentials",
+    "type": "design",
+    "level": "Beginner",
+    "provider": "DesignSchool",
+    "description": "Understand user-centred design, prototyping and usability testing.",
+    "url": "https://www.example.com/courses/ui-ux-essentials",
+    "tags": ["design","ux","ui"]
+  },
+  {
+    "id": "c4",
+    "title": "Cloud Fundamentals: AWS",
+    "type": "cloud",
+    "level": "Beginner",
+    "provider": "CloudAcademy",
+    "description": "Get started with cloud concepts and AWS core services.",
+    "url": "https://www.example.com/courses/aws-fundamentals",
+    "tags": ["cloud","aws","infrastructure"]
+  },
+  {
+    "id": "c5",
+    "title": "Business Analytics Basics",
+    "type": "business",
+    "level": "Beginner",
+    "provider": "BizLearn",
+    "description": "Learn to use analytics to inform business decisions and KPIs.",
+    "url": "https://www.example.com/courses/business-analytics",
+    "tags": ["business","analytics"]
+  }
+]
