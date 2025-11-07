@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skill Bridge</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Skill Bridge</h1>
+      <p class="tagline">Search courses, access learning and check jobs — all in one place.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="tabs">
+      <button id="tab-courses" class="tab active">Courses</button>
+      <button id="tab-jobs" class="tab">Jobs</button>
+    </nav>
+
+    <section id="view-courses" class="view">
+      <div class="controls">
+        <input id="course-search" type="search" placeholder="Search courses by title, provider or tag" />
+        <select id="course-type">
+          <option value="all">All types</option>
+          <option value="programming">Programming</option>
+          <option value="design">Design</option>
+          <option value="data">Data Science</option>
+          <option value="cloud">Cloud</option>
+          <option value="business">Business</option>
+        </select>
+      </div>
+      <div id="courses-list" class="list"></div>
+    </section>
+
+    <section id="view-jobs" class="view hidden">
+      <div class="controls">
+        <input id="job-search" type="search" placeholder="Search jobs by title, company or location" />
+        <select id="job-type">
+          <option value="all">All types</option>
+          <option value="full-time">Full-time</option>
+          <option value="part-time">Part-time</option>
+          <option value="contract">Contract</option>
+          <option value="internship">Internship</option>
+        </select>
+      </div>
+      <div id="jobs-list" class="list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">Built with care — Skill Bridge demo</div>
+  </footer>
+
+  <template id="course-item-tpl">
+    <article class="item course-item">
+      <h3 class="title"></h3>
+      <div class="meta"></div>
+      <p class="desc"></p>
+      <div class="actions">
+        <a class="btn open-link" target="_blank" rel="noopener noreferrer">Access course</a>
+      </div>
+    </article>
+  </template>
+
+  <template id="job-item-tpl">
+    <article class="item job-item">
+      <h3 class="title"></h3>
+      <div class="meta"></div>
+      <p class="desc"></p>
+      <div class="actions">
+        <a class="btn open-link" target="_blank" rel="noopener noreferrer">View job</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
